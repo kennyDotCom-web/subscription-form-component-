@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="app.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section>
+      <div class="content1-box">
+        <div class="content-container">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+        <div class="check-container">
+          <div class="check-box">
+            <img src="./assets/images/icon-list.svg" alt="check icon" />
+            <h2>Product discovery and building what matters</h2>
+          </div>
+          <div class="check-box">
+            <img src="./assets/images/icon-list.svg" alt="check icon" />
+            <h2>Measuring to ensure updates are a success</h2>
+          </div>
+          <div class="check-box">
+            <img src="./assets/images/icon-list.svg" alt="check icon" />
+            <h2>And much more! Email address</h2>
+          </div>
+        </div>
+        <form class="default-form" novalidate>
+          <div class="form-holder">
+            <div class="label-box">
+              <label for="emailAddress">Email Address</label>
+              <p class="error-message"></p>
+            </div>
+            <input
+              id="emailAddress"
+              type="email"
+              name="emailAddress"
+              placeholder=""
+            />
+          </div>
+          <div class="button-container">
+            <button type="submit" class="my-button">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="content2-box">
+        <div class="desktop-box">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </div>
+        <div class="mobile-box">
+          <img
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <div class="model-box">
+      <div class="container-ch4">
+        <div class="img-box">
+          <img src="./assets/images/icon-success.svg" alt="" />
+        </div>
+        <h4>Thanks for subscribing!</h4>
+        <p>
+          A confirmation email has been sent to ash@loremcompany.com. Please
+          open it and click the button inside to confirm your subscription
+        </p>
+      </div>
+
+      <div class="p-box">
+        <div class="button-success">
+          <button class="success-container">Dismiss message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+
+  <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+  <!-- 
+     email@company.com Subscribe to monthly newsletter -->
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <!-- 
+    Thanks for subscribing! A confirmation email has been sent to
+    ash@loremcompany.com. Please open it and click the button inside to confirm
+    your subscription.  -->
+
+  <!-- Success message end -->
+</html>
